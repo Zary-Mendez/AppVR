@@ -32,7 +32,7 @@ public class GrabManager : MonoBehaviour
         {
             GameObject pointer = GameObject.Find("GazePointer");
             Vector3 pointerPos = pointer.transform.position;
-            heldItem.transform.position = new Vector3(pointerPos.x, pointerPos.y + 0.5f, pointerPos.z);
+            heldItem.transform.position = new Vector3(pointerPos.x, pointerPos.y + 1.5f, pointerPos.z);
         }
     }
 }
