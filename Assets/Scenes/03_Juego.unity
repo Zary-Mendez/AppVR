@@ -4296,8 +4296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 422240873}
 --- !u!1 &257886218
@@ -7328,8 +7328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1878421111}
 --- !u!1001 &455690555
@@ -8776,7 +8776,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9703,8 +9703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1549296423}
 --- !u!1001 &625348383
@@ -11550,8 +11550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 264194390}
 --- !u!1001 &715957720
@@ -12826,8 +12826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 749665319}
 --- !u!1001 &788023985
@@ -14622,8 +14622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 752954241}
 --- !u!1001 &869211428
@@ -16564,8 +16564,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1710747330}
 --- !u!1 &967802634
@@ -17118,8 +17118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1491335804}
 --- !u!1 &982114605 stripped
@@ -17382,8 +17382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 936919855}
 --- !u!1001 &991704235
@@ -17549,8 +17549,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 431596237}
 --- !u!1 &998454723
@@ -18892,8 +18892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1255314028}
 --- !u!1001 &1086492411
@@ -28889,8 +28889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 1348973709}
 --- !u!1 &1633551669 stripped
@@ -35912,8 +35912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842786096fdfaa48bacf68fa6584ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrabObject
-  soundGrab: {fileID: 0}
-  soundPlace: {fileID: 0}
+  soundGrab: {fileID: 8300000, guid: bd8f326d4e377284aae31cb6f62fc8b5, type: 3}
+  soundPlace: {fileID: 8300000, guid: f90f8bd3c80ef524f9a7be9483606f28, type: 3}
   type: Objeto
   spawner: {fileID: 257886218}
 --- !u!1001 &2064543025
