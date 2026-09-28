@@ -6,7 +6,8 @@ public class PlateBehaviour : MonoBehaviour
 {
     GrabManager grabManager;
     [SerializeField] GameObject holder;
-    
+    [SerializeField] float rotationSpeed = 80f;
+
     public GameObject heldObject;
 
     void Start()
@@ -18,7 +19,7 @@ public class PlateBehaviour : MonoBehaviour
     {
         if (heldObject != null)
         {
-            heldObject.transform.Rotate(Vector3.up * (10 * Time.deltaTime));
+            heldObject.transform.Rotate(Vector3.up * (rotationSpeed * Time.deltaTime));
         }
     }
 
@@ -30,6 +31,7 @@ public class PlateBehaviour : MonoBehaviour
             {
                 heldObject.GetComponent<GrabObject>().Respawn();
             }
+
             heldObject = grabManager.heldItem;
             grabManager.heldItem.GetComponent<GrabObject>().Place(holder.transform.position);
         }

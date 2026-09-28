@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class TeleportPoint : MonoBehaviour
 {
-    
     public UnityEvent OnTeleportEnter;
     public UnityEvent OnTeleport;
     public UnityEvent OnTeleportExit;
@@ -13,13 +12,11 @@ public class TeleportPoint : MonoBehaviour
     void Start()
     {
         transform.GetChild(0).gameObject.SetActive(false);
-    } 
+    }
 
     public void OnPointerEnterXR()
     {
-        
         OnTeleportEnter?.Invoke();
-        
     }
 
     public void OnPointerClickXR()
@@ -37,13 +34,17 @@ public class TeleportPoint : MonoBehaviour
     private void ExecuteTeleportation()
     {
         GameObject player = TeleportManager.Instance.Player;
-        player.transform.position = transform.position;
-        Camera camera = player.GetComponentInChildren<Camera>();
-        float rotY = transform.rotation.eulerAngles.y - camera.transform.localEulerAngles.y;
-        player.transform.rotation = Quaternion.Euler(0, rotY, 0);
+
+        // Conserva la altura actual del Player y solo cambia X y Z.
+        Vector3 newPosition = new Vector3(
+            transform.position.x,
+            player.transform.position.y,
+            transform.position.z
+        );
+
+        player.transform.position = newPosition;
+
+        // La rotación no se modifica.
+        // El jugador conserva la dirección en la que venía mirando.
     }
-
-
-
 }
-
