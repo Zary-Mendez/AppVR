@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.19.0/Hello Cardboard/Scenes/HelloCardboard.unity
     guid: 145a2a45d7bc746b19cb68410368bf96
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Objetos.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/01_Inicio.unity
-    guid: cbd19e7773c29964584c0a18bcd0af6d
+    guid: 12b7e42e0849d43458998e519cebf56c
   - enabled: 1
     path: Assets/Scenes/02_Tutorial.unity
-    guid: d688b01752b38cf4da75b7407b65fff1
+    guid: dfada3e825ba9fc4fb9145a9ee3b78e6
   - enabled: 1
     path: Assets/Scenes/03_Juego.unity
     guid: 54e148ebd188a8b43a671f1df0ccfaef
