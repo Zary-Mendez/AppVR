@@ -5,10 +5,19 @@ using UnityEngine;
 public class PlateBehaviour : MonoBehaviour
 {
     GrabManager grabManager;
+
+    [Header("Punto donde se coloca la bandera")]
     [SerializeField] GameObject holder;
+
+    [Header("Rotación de la bandera colocada")]
     [SerializeField] float rotationSpeed = 80f;
 
+    [Header("Zona del barril")]
+    [SerializeField] private string zona = "Central";
+
     public GameObject heldObject;
+
+    private bool banderaYaContada = false;
 
     void Start()
     {
@@ -34,6 +43,12 @@ public class PlateBehaviour : MonoBehaviour
 
             heldObject = grabManager.heldItem;
             grabManager.heldItem.GetComponent<GrabObject>().Place(holder.transform.position);
+
+            if (!banderaYaContada)
+            {
+                GameProgressManager.Instance.RegistrarBandera(zona);
+                banderaYaContada = true;
+            }
         }
         else
         {
