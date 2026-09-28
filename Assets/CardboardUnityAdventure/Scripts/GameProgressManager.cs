@@ -13,9 +13,14 @@ public class GameProgressManager : MonoBehaviour
     public int totalAzul = 5;
     public int totalRoja = 5;
 
+    [Header("Canvas que aparece al completar")]
+    public GameObject canvasFinalJuego;
+
     private int centralActual = 0;
     private int azulActual = 0;
     private int rojaActual = 0;
+
+    private bool juegoCompletado = false;
 
     private void Awake()
     {
@@ -24,11 +29,18 @@ public class GameProgressManager : MonoBehaviour
 
     private void Start()
     {
+        if (canvasFinalJuego != null)
+        {
+            canvasFinalJuego.SetActive(false);
+        }
+
         ActualizarTexto();
     }
 
     public void RegistrarBandera(string zona)
     {
+        if (juegoCompletado) return;
+
         if (zona == "Central")
         {
             centralActual++;
@@ -43,6 +55,7 @@ public class GameProgressManager : MonoBehaviour
         }
 
         ActualizarTexto();
+        RevisarVictoria();
     }
 
     private void ActualizarTexto()
@@ -56,5 +69,21 @@ public class GameProgressManager : MonoBehaviour
             "Central: " + centralActual + "/" + totalCentral + "\n" +
             "Azul: " + azulActual + "/" + totalAzul + "\n" +
             "Roja: " + rojaActual + "/" + totalRoja;
+    }
+
+    private void RevisarVictoria()
+    {
+        int totalActual = centralActual + azulActual + rojaActual;
+        int totalGeneral = totalCentral + totalAzul + totalRoja;
+
+        if (totalActual >= totalGeneral)
+        {
+            juegoCompletado = true;
+
+            if (canvasFinalJuego != null)
+            {
+                canvasFinalJuego.SetActive(true);
+            }
+        }
     }
 }
